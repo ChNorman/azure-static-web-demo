@@ -16,5 +16,5 @@
       "name": "res"
     }
   ],
-  "scriptFile": "../dist/SetCookie/index.js"
+  "scriptFile": "../dist/SetCookie/index.ts"
 }
