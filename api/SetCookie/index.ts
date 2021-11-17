@@ -8,12 +8,11 @@ const httpTrigger: AzureFunction = async function (context: Context, req: HttpRe
     body: 'Hello, world.',
     cookies: [
       {
-        name: 'cookie1',
-        value: 'value1'
-      },
-      {
-        name: 'cookie2',
-        value: 'value2'
+        name: '__Host-Testing',
+        value: 'value2',
+        secure: true
+        //domain: 'blue-ocean-01ce8ea10.azurestaticapps.net',
+        //path: '/'
       }
     ]
   }
