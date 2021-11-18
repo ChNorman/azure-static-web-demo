@@ -11,7 +11,6 @@ const httpTrigger: AzureFunction = async function (context: Context, req: HttpRe
         name: "__Host-testing",
         value: "value2",
         secure: true,
-        domain: "",
         path: "/"
       }
     ]
